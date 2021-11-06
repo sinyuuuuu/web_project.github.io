@@ -15,9 +15,9 @@
             #sidebar.active {
                 margin-left: -200px;
             }
-            
+        
             .container-right {
-                background-color: rgb(244, 255, 255);
+                background-color: rgb(189, 252, 201);
                 width: 100%;
                 height: 100vh;
                 text-align: center;
@@ -36,7 +36,7 @@
             }
             
             .collapse-btn:hover {
-                background-color: rgb(120, 5, 203);
+                background-color:yellowgreen;
                 transition: 0.4s;
             }
             
@@ -56,18 +56,16 @@
             }
             
             #sidebar ul li a:hover {
-                color:aqua;
+                color:yellowgreen;
                 background: #fff;
             }
             
-            .fas,
-            .far,
-            .fab {
+            .fas {
                 float: right;
             }
             
             ul ul li a {
-                background-color:rgb(135, 206, 250);
+                background-color:rgb(61, 145, 64);
                 font-size: 20px;
                 font-style: italic;
             }
