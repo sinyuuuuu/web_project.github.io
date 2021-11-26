@@ -7,7 +7,7 @@
             #sidebar {
                 
                 width: 250px;
-                height: 100vh;
+                height: 600vh;
                 background-color:yellowgreen;
                 color: white;
                 transition: 1s;
@@ -20,7 +20,7 @@
             .container-right {
                 background-color: rgb(189, 252, 201);
                 width: 100%;
-                height: 100vh;
+                height: 600vh;
                 text-align: center;
                 padding: 30px;
             }
