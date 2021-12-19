@@ -2,6 +2,7 @@
             .container-all {
                 display: flex;
                 align-items: stretch;
+                <span style="font-family:DFKai-sb;">標楷體字型</span>
             }
             
             #sidebar {
