@@ -1,16 +1,16 @@
 
-            .container-all {
+         .container-all {
                 display: flex;
                 align-items: stretch;
+                font-family: "DFKai-SB", "FangSong", Arial, serif;
             }
             
             #sidebar {
-                
                 width: 250px;
-                height: 100vh;
-                background-color:yellowgreen;
-                color: white;
+                height: 700vh;
+                background-image:url("https://i.pinimg.com/1200x/be/b0/02/beb00285df586d9468ea205cdc9fb9ae.jpg");
                 transition: 1s;
+ 
             }
             
             #sidebar.active {
@@ -18,18 +18,20 @@
             }
         
             .container-right {
-                background-color: rgb(189, 252, 201);
+                background-image:url("https://images-my.girlstyle.com/wp-content/uploads/2020/03/a0c1679ed961aadf02656313e4e72b4c.jpg");
+                background-size:contain;
                 width: 100%;
-                height: 100vh;
+                height: 700vh;
                 text-align: center;
                 padding: 30px;
+                background-attachment:scroll;
             }
-            
+
             .collapse-btn {
                 position: relative;
                 top: 1%;
                 left: 200px;
-                background-color:rgb(34, 139, 34);
+                background-color:rgb(148, 45, 45);
                 color: white;
                 border: none;
                 font-size: 30px;
@@ -37,19 +39,19 @@
             }
             
             .collapse-btn:hover {
-                background-color:yellowgreen;
+                background-color:rgba(224, 72, 72, 0.521);
                 transition: 0.4s;
             }
             
             #sidebar p {
                 text-align: center;
-                font-size: 30px;
-                font-style: italic;
+                font-size: 40px;
+                color:white;
                 padding: 10px;
             }
             
             #sidebar ul li a {
-                padding: 10px;
+                padding: 20px;
                 font-size: 20px;
                 display: block;
                 text-decoration: none;
@@ -57,7 +59,7 @@
             }
             
             #sidebar ul li a:hover {
-                color:yellowgreen;
+                color:rgb(255, 129, 107);
                 background: #fff;
             }
             
@@ -66,11 +68,60 @@
             }
             
             ul ul li a {
-                background-color:rgb(61, 145, 64);
+                background-color:rgb(224, 72, 72, 0.521);
                 font-size: 20px;
                 font-style: italic;
             }
+
+            .wrap0{
+                margin:0 auto;
+                border-width:5px; border-style:double; width:200px; height:63px; padding:5px; text-align:center; 
+            }
             
+            .wrap1{
+                margin:0 auto;
+                border-width:3px; border-style:solid; width:200px; height:50px; border-color:#842B00; padding:5px; text-align:center; border-radius:50px;
+                background-color:#cf925f4d;
+            }
+
+            .wrap2{
+                margin:0 auto;
+                border-width:3px; border-style:solid; width:330px; height:50px; border-color:#842B00; padding:5px; text-align:center; border-radius:50px;
+                background-color:#cf925f4d;
+            }
+
+            .wrap3{
+                margin:0 auto;
+                border-width:3px; border-style:solid; width:450px; height:50px; border-color:#842B00; padding:5px; text-align:center; border-radius:50px;
+                background-color:#cf925f4d;
+            }
+            .wrap4{
+                margin:0 auto;
+                border-width:2px; border-style:solid; width:50px; height:50px; padding:5px; text-align:center; border-radius:50px;
+                background-color:#eeae794d;
+            }
+            .wrap5{
+                margin:0 auto;
+                border-width:2px; border-style:solid; width:50px; height:50px; padding:5px; text-align:center; border-radius:50px;
+                background-color:#eeae794d;
+            }
+            .wrap6{
+                margin:0 auto;
+                border-width:2px; border-style:solid; width:50px; height:50px; padding:3px; text-align:center; border-radius:50px;
+                background-color:#eeae794d;
+            }
+            
+            .wrap7{
+                margin:0 auto;
+                border-width:5px; border-style:double; width:200px; height:63px; padding:5px; text-align:center; 
+            }
+
+            .wrap8{
+                margin:0 auto;
+                border-width:5px; border-style:double; width:200px; height:63px; padding:5px; text-align:center; 
+            }
+
+
             @media (max-width:600px) {
                 #sidebar {
                     margin-left: -100px;
@@ -86,8 +137,7 @@
                     margin-left: 0px;
                 }
                 #sidebar ul p {
-                    font-size: 18px;
+                    font-size: 2px;
                     text-align: left;
                 }
             }
-      
